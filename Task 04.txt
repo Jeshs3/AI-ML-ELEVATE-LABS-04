@@ -1,0 +1,10 @@
+Task 04
+
+1. Linear regression predicts continuous numbers, like price or temperature. Logistic regression predicts probabilities for categories, like yes/no or 0/1.
+2. The sigmoid function squashes any number into a value between 0 and 1. It is used in logistic regression to convert predictions into probabilities.
+3. Precision tells us how many predicted positives were actually correct. Recall tells us how many actual positives we correctly identified.
+4. The ROC-AUC curve shows how well a classifier separates classes at different thresholds. A higher area under the curve (AUC) means better performance.
+5.A confusion matrix shows the number of correct and wrong predictions for each class. It helps understand where a model is making mistakes.
+6. If one class is much bigger than the other, the model may ignore the smaller class. This can lead to misleading accuracy and poor predictions for the minority class.
+7. The threshold decides which probability counts as a positive prediction. You can adjust it based on whether you want fewer false positives or fewer false negatives.
+8. Yes, using methods like “one-vs-rest” or “softmax” logistic regression. This allows it to predict more than two classes instead of just yes/no.
